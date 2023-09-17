@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Header />
       <ClubInfoComponent /> {/* クラブ情報コンポーネントを追加 */}
-      <GoalComponent />
+      <GoalComponent />{/* クラブ情報コンポーネントを追加 */}
       <p>Hello World</p>
     </div>
   );
