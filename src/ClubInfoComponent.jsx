@@ -7,6 +7,10 @@ function ClubInfoComponent() {
       <h1>arsenal</h1>
       <img src={emblem} alt="クラブのエンブレム" width="100" />
     </div>
+    <div>
+      
+    </div>
+
   );
 }
 
