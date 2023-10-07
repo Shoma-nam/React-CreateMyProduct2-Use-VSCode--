@@ -1,14 +1,12 @@
+// App.js
 import React from 'react';
-import ClubInfoComponent from './ClubInfoComponent'; // クラブ情報コンポーネントをインポート
-import GoalComponent from './GoalComponent';
+import YoutubePlayer from './YoutubePlayer'; // YoutubePlayerのパスに注意
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <ClubInfoComponent /> {/* クラブ情報コンポーネントを追加 */}
-      <GoalComponent />{/* クラブ情報コンポーネントを追加 */}
-      <p>Hello World</p>
+      <h1>YouTube Player</h1>
+      <YoutubePlayer />
     </div>
   );
 }
