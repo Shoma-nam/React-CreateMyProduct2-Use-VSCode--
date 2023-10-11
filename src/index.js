@@ -1,6 +1,12 @@
+// index.js
+import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from './App'; // Appのパスに注意
+import './index.css'; // 必要に応じてスタイルもインポート
 
-const root = document.getElementById('root');
-const appRoot = ReactDOM.createRoot(root);
-appRoot.render(<App />);
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
